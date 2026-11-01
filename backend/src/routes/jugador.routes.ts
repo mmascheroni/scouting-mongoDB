@@ -9,14 +9,15 @@ import {
   obtenerLesionesJugador,
   agregarLesion,
   crearJugador,
-  eliminarJugador
+  eliminarJugador,
+  obtenerRanking
 } from '../controllers/jugador.controller';
 
 const router = Router();
 
 // 1. RUTAS ESPECÍFICAS Y AGREGACIONES
 router.get('/trayectoria', obtenerTrayectoriaClubes);
-router.get('/scouting', buscarScouting);
+router.get('/scouting', obtenerRanking);
 
 // CRUD General
 router.get('/', obtenerJugadores);

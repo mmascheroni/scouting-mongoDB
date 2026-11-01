@@ -343,3 +343,115 @@ export const eliminarJugador = async (req: Request, res: Response) => {
         res.status(400).json({ error: 'Error al eliminar' });
     }
 };
+
+export const obtenerRanking = async (req: Request, res: Response) => {
+    try {
+        const { posicion, minGoles, cantidad } = req.query;
+        
+        // Posición por defecto si no se envía una
+        const pos = posicion ? String(posicion).toUpperCase() : 'DELANTERO';
+        const limitNum = cantidad ? Number(cantidad) : 10;
+
+        const pipeline: any[] = [
+        // 1. Filtrar los jugadores por la posición elegida
+        { $match: { posiciones: pos } },
+        
+        // 2. Descomponer el historial de temporadas
+        { $unwind: '$estadisticas_Temporadas' },
+        
+        // 3. Ordenar para obtener la temporada más reciente primero
+        { $sort: { 'estadisticas_Temporadas.temporada': -1 } },
+        
+        // 4. Agrupar para conservar solo la última temporada disputada por cada jugador
+        {
+            $group: {
+            _id: '$_id',
+            nombre: { $first: '$nombre' },
+            apellido: { $first: '$apellido' },
+            posicionPrincipal: { $first: '$posicionPrincipal' },
+            clubActualId: { $first: '$clubActualId' },
+            temporada: { $first: '$estadisticas_Temporadas' }
+            }
+        },
+        
+        // 5. Lookup para obtener la información del club actual
+        {
+            $lookup: {
+            from: 'CLUB', // Nombre de la colección tal cual figura en MongoDB
+            localField: 'clubActualId',
+            foreignField: '_id',
+            as: 'clubActualInfo'
+            }
+        },
+        {
+            $unwind: {
+            path: '$clubActualInfo',
+            preserveNullAndEmptyArrays: true
+            }
+        },
+
+        // 6. AUTOMÁTICO: Asignar el criterio principal según la posición
+        {
+            $addFields: {
+            criterioPrincipal: {
+                $switch: {
+                branches: [
+                    {
+                    case: { $eq: [pos, 'GOLERO'] },
+                    then: { $ifNull: ['$temporada.golero.vallasInvictas', 0] }
+                    },
+                    {
+                    case: { $eq: [pos, 'DEFENSOR'] },
+                    then: { $ifNull: ['$temporada.defensivas.duelosGanados', 0] }
+                    },
+                    {
+                    case: { $eq: [pos, 'MEDIOCAMPISTA'] },
+                    then: { $ifNull: ['$temporada.pase.pasesProgresivos', 0] }
+                    },
+                    {
+                    case: { $eq: [pos, 'DELANTERO'] },
+                    then: { $ifNull: ['$temporada.ofensivas.goles', 0] }
+                    }
+                ],
+                default: 0
+                }
+            }
+            }
+        }
+        ];
+
+        // 7. Filtro opcional: si el usuario especifica minGoles (útil para delanteros/medios)
+        if (minGoles && Number(minGoles) > 0) {
+        pipeline.push({
+            $match: { 'temporada.ofensivas.goles': { $gte: Number(minGoles) } }
+        });
+        }
+
+        // 8. Ordenar descendentemente por la métrica automática asignada
+        pipeline.push({ $sort: { criterioPrincipal: -1 } });
+
+        // 9. Limitar el número de resultados (Top N)
+        pipeline.push({ $limit: limitNum });
+
+        // 10. Proyectar la salida de forma limpia
+        pipeline.push({
+        $project: {
+            _id: 1,
+            jugador: { $concat: ['$nombre', ' ', '$apellido'] },
+            nombre: 1,
+            apellido: 1,
+            posicionPrincipal: 1,
+            clubActual: '$clubActualInfo.nombre',
+            temporada: '$temporada.temporada',
+            partidos: '$temporada.generales.partidos',
+            criterioPrincipal: 1,
+            estadisticas: '$temporada'
+        }
+        });
+
+        const ranking = await JugadorModel.aggregate(pipeline);
+        res.json(ranking);
+    } catch (error: any) {
+        res.status(500).json({ error: 'Error al generar el ranking por posición' });
+    }
+};
