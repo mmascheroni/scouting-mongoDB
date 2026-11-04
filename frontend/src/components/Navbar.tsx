@@ -39,6 +39,11 @@ export const Navbar = () => {
                         Búsqueda de Jugadores
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to='/comparar' style={({ isActive }) => isActive ? styles.activeLink : styles.link}>
+                        Comparar jugadores
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );

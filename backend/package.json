@@ -6,6 +6,7 @@
     "scripts": {
         "dev": "tsx watch src/app.ts",
         "seed": "tsx src/seed.ts",
+        "seed:planteles": "tsx src/importarPlanteles.ts",
         "build": "tsc",
         "start": "node dist/app.js"
     },

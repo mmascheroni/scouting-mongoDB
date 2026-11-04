@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useClubes } from '../hooks/useClubes';
+import { obtenerEscudoClub } from '../data/escudosClubes';
 
 export const ClubesPage = () => {
     const { clubes, cargando, error } = useClubes();
@@ -37,15 +38,22 @@ export const ClubesPage = () => {
                 {clubes.map((club) => (
                     <div key={club._id} style={styles.card}>
                         <div style={styles.cardHeader}>
-                            <h2 style={styles.clubName}>{club.nombre}</h2>
+                            <div style={styles.clubIdentity}>
+                                {obtenerEscudoClub(club.nombre) && <img
+                                    src={obtenerEscudoClub(club.nombre)}
+                                    alt={`Escudo de ${club.nombre}`}
+                                    width={64}
+                                    height={64}
+                                    loading='lazy'
+                                    style={styles.escudo}
+                                    onError={e => { e.currentTarget.style.display = 'none'; }}
+                                />}
+                                <h2 style={styles.clubName}>{club.nombre}</h2>
+                            </div>
                             <span style={styles.badge}>{club.division}</span>
                         </div>
 
                         <div style={styles.cardBody}>
-                            <p style={styles.field}>
-                                <strong>ID:</strong>{' '}
-                                <code style={styles.code}>{club._id}</code>
-                            </p>
                             <p style={styles.field}>
                                 <strong>País:</strong> {club.pais}
                             </p>
@@ -122,6 +130,18 @@ const styles: { [key: string]: React.CSSProperties } = {
         marginBottom: '1rem',
         borderBottom: '1px solid #f1f5f9',
         paddingBottom: '0.75rem',
+        flexWrap: 'wrap',
+    },
+    clubIdentity: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '1rem',
+        flex: '1 1 200px',
+        minWidth: 0,
+    },
+    escudo: {
+        objectFit: 'contain',
+        flexShrink: 0,
     },
     clubName: {
         fontSize: '1.25rem',
@@ -148,13 +168,6 @@ const styles: { [key: string]: React.CSSProperties } = {
         margin: 0,
         fontSize: '0.95rem',
         color: '#334155',
-    },
-    code: {
-        backgroundColor: '#f1f5f9',
-        padding: '0.1rem 0.4rem',
-        borderRadius: '4px',
-        fontSize: '0.8rem',
-        color: '#475569',
     },
     cardFooter: {
         marginTop: 'auto',

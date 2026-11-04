@@ -1,5 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useJugador } from '../hooks/useJugador';
+import { EscudoClub } from '../components/EscudoClub';
+import { formatearPieHabil } from '../utils/jugadores';
 import type { IClub } from '../types/types';
 import { EstadisticasTemporadaCard } from '../components/EstadisticasTemporadaCard';
 
@@ -77,7 +79,7 @@ export const JugadorDetallePage = () => {
                             <strong>Altura:</strong> {jugador.altura} cm
                         </p>
                         <p>
-                            <strong>Pie Hábil:</strong> {jugador.pieHabil}
+                            <strong>Pie Hábil:</strong> {formatearPieHabil(jugador.pieHabil)}
                         </p>
                         <p>
                             <strong>Club Actual:</strong>{' '}
@@ -156,7 +158,7 @@ export const JugadorDetallePage = () => {
                                         style={styles.trayectoriaCard}
                                     >
                                         <h3 style={styles.trayectoriaClub}>
-                                            ⚽ {nombreDelClub}
+                                            <EscudoClub nombre={nombreDelClub} tamano={36} />{nombreDelClub}
                                         </h3>
 
                                         {(ciudadDelClub || paisDelClub) && (

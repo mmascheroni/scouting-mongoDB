@@ -1,0 +1,2412 @@
+{
+  "fechaConsulta": "2026-11-04",
+  "fuenteLiga": "https://www.transfermarkt.es/liga-auf-apertura/startseite/wettbewerb/URU1",
+  "planteles": [
+    {
+      "clubIdTransfermarkt": "861",
+      "fuente": "https://www.transfermarkt.es/ca-penarol/kader/verein/861/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "273203",
+          "nombreCompleto": "Washington Aguerre",
+          "posicion": "Portero"
+        },
+        {
+          "id": "159772",
+          "nombreCompleto": "Sebastián Britos",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1116154",
+          "nombreCompleto": "Nahuel Herrera",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "750733",
+          "nombreCompleto": "Lucas Ferreira",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "303140",
+          "nombreCompleto": "Mauricio Lemos",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "113133",
+          "nombreCompleto": "Germán Pezzella",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "325454",
+          "nombreCompleto": "Franco Romero",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1536935",
+          "nombreCompleto": "Facundo Álvez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1049404",
+          "nombreCompleto": "Thiago Espinosa",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "230552",
+          "nombreCompleto": "Diego Laxalt",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "179757",
+          "nombreCompleto": "Maximiliano Olivera",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "250144",
+          "nombreCompleto": "Lucas Hernández",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1339498",
+          "nombreCompleto": "Brian Barboza",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "997823",
+          "nombreCompleto": "Ignacio Alegre",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "362364",
+          "nombreCompleto": "Eric Remedi",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "251773",
+          "nombreCompleto": "Jesús Trindade",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "400677",
+          "nombreCompleto": "Nicolás Fernández",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "541253",
+          "nombreCompleto": "Eduardo Darias",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1268037",
+          "nombreCompleto": "Tomás Olase",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "997820",
+          "nombreCompleto": "Stiven Muhlethaler",
+          "posicion": "Interior derecho"
+        },
+        {
+          "id": "375610",
+          "nombreCompleto": "Leonardo Fernández",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1149380",
+          "nombreCompleto": "Leandro Umpiérrez",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "928621",
+          "nombreCompleto": "Franco González",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1291054",
+          "nombreCompleto": "Leonel Jaime",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "885301",
+          "nombreCompleto": "Luis Angulo",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1418931",
+          "nombreCompleto": "Brandon Álvarez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1342677",
+          "nombreCompleto": "Gonzalo Gelini",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "147131",
+          "nombreCompleto": "Javier Cabrera",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "611426",
+          "nombreCompleto": "Matías Arezo",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "577260",
+          "nombreCompleto": "Facundo Batista",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "280795",
+          "nombreCompleto": "Jonathan Rodríguez",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "76608",
+          "nombreCompleto": "Abel Hernández",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1062319",
+          "nombreCompleto": "Luciano González",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "866",
+      "fuente": "https://www.transfermarkt.es/club-nacional/kader/verein/866/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "657760",
+          "nombreCompleto": "Ignacio Suárez",
+          "posicion": "Portero"
+        },
+        {
+          "id": "76715",
+          "nombreCompleto": "Luis Mejía",
+          "posicion": "Portero"
+        },
+        {
+          "id": "360521",
+          "nombreCompleto": "Alexis Martín Arias",
+          "posicion": "Portero"
+        },
+        {
+          "id": "188470",
+          "nombreCompleto": "Francisco Calvo",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1310240",
+          "nombreCompleto": "Tomás Viera",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "456535",
+          "nombreCompleto": "Agustín Rogel",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "102427",
+          "nombreCompleto": "Sebastián Coates",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1372200",
+          "nombreCompleto": "Luciano Rodríguez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1149317",
+          "nombreCompleto": "Benjamín Núñez",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "382473",
+          "nombreCompleto": "Camilo Cándido",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "744324",
+          "nombreCompleto": "Gastón Martirena",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "577406",
+          "nombreCompleto": "Emiliano Ancheta",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "196187",
+          "nombreCompleto": "Nicolás Rodríguez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "115507",
+          "nombreCompleto": "Bruno Zuculini",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1021366",
+          "nombreCompleto": "Juan Ignacio García",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "577259",
+          "nombreCompleto": "Luciano Boggio",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "898318",
+          "nombreCompleto": "Santiago Silva",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1339507",
+          "nombreCompleto": "Agustín Dos Santos",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "338641",
+          "nombreCompleto": "Lucas Rodríguez",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1339505",
+          "nombreCompleto": "Luciano Gonzalez",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "88542",
+          "nombreCompleto": "Rubén Botta",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "729356",
+          "nombreCompleto": "Alejandro Martínez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1379671",
+          "nombreCompleto": "Rodrigo Martínez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "624096",
+          "nombreCompleto": "Tomás Verón Lupi",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1452523",
+          "nombreCompleto": "Nahuel Gelos",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "396894",
+          "nombreCompleto": "Maxi Gómez",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "365827",
+          "nombreCompleto": "Maximiliano Silvera",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1037724",
+          "nombreCompleto": "Tiziano Correa",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1372201",
+          "nombreCompleto": "Pavel Núñez",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "37535",
+      "fuente": "https://www.transfermarkt.es/montevideo-city-torque/kader/verein/37535/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "189422",
+          "nombreCompleto": "Gastón Rodríguez",
+          "posicion": "Portero"
+        },
+        {
+          "id": "240891",
+          "nombreCompleto": "Franco Torgnascioli",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1022384",
+          "nombreCompleto": "Kevin Silva",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1240000",
+          "nombreCompleto": "José Tarán",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1339036",
+          "nombreCompleto": "Nicolás Pérez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "58890",
+          "nombreCompleto": "Gary Kagelmacher",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1428936",
+          "nombreCompleto": "Brian Gutiérrez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "511336",
+          "nombreCompleto": "Facundo Silvera",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "999077",
+          "nombreCompleto": "Nahuel Leivas",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1332567",
+          "nombreCompleto": "Santiago Zampieri",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1072710",
+          "nombreCompleto": "Eduardo Agüero",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "589687",
+          "nombreCompleto": "Ezequiel Busquets",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1467150",
+          "nombreCompleto": "Valentino Würth",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "511289",
+          "nombreCompleto": "Pablo Siles",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "294889",
+          "nombreCompleto": "Franco Pizzichillo",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "821903",
+          "nombreCompleto": "Sebastián Cáceres",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "227096",
+          "nombreCompleto": "Gonzalo Montes",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1240474",
+          "nombreCompleto": "Lucas Duré",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1203762",
+          "nombreCompleto": "Diogo Guzmán",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1074956",
+          "nombreCompleto": "Luka Andrade",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1248273",
+          "nombreCompleto": "Facundo Martínez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "830315",
+          "nombreCompleto": "Esteban Obregón",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1339033",
+          "nombreCompleto": "Ramiro Lecchini",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "743952",
+          "nombreCompleto": "Juan Quintana",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "745670",
+          "nombreCompleto": "Salomón Rodríguez",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1042134",
+          "nombreCompleto": "Nahuel Da Silva",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "2619",
+      "fuente": "https://www.transfermarkt.es/defensor-sporting-club/kader/verein/2619/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "651855",
+          "nombreCompleto": "Lucas Machado",
+          "posicion": "Portero"
+        },
+        {
+          "id": "131110",
+          "nombreCompleto": "Kevin Dawson",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1147663",
+          "nombreCompleto": "Bruno Simone",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1472988",
+          "nombreCompleto": "Mateo Caballero",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "465677",
+          "nombreCompleto": "Edgar Elizalde",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1379673",
+          "nombreCompleto": "Francisco Sorondo",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1237377",
+          "nombreCompleto": "Geanfranco Rodríguez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "179276",
+          "nombreCompleto": "Guillermo de los Santos",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1319377",
+          "nombreCompleto": "Axel Frugone",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "911183",
+          "nombreCompleto": "Lucas Paul de los Santos",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "928851",
+          "nombreCompleto": "Germán Barrios",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "960981",
+          "nombreCompleto": "Nicolás Wunsch",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "325590",
+          "nombreCompleto": "Martín Rabuñal",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "987582",
+          "nombreCompleto": "Juan Manuel Jorge",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1106326",
+          "nombreCompleto": "Erico Cuello",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "971205",
+          "nombreCompleto": "Xavier Biscayzacú",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "838796",
+          "nombreCompleto": "Tomás Pozzo",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1425952",
+          "nombreCompleto": "Nicolás Scotti",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1106327",
+          "nombreCompleto": "Lucas Agazzi",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1065197",
+          "nombreCompleto": "Alex Perdomo",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1276028",
+          "nombreCompleto": "Alan Torterolo",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "318843",
+          "nombreCompleto": "Facundo Castro",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1039040",
+          "nombreCompleto": "Nicolás Medina",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "492315",
+          "nombreCompleto": "José Neris",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "198143",
+          "nombreCompleto": "Brian Montenegro",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1241876",
+          "nombreCompleto": "Lautaro Navarro",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "17428",
+      "fuente": "https://www.transfermarkt.es/ca-juventud/kader/verein/17428/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "743953",
+          "nombreCompleto": "Fabrizio Correa",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1134754",
+          "nombreCompleto": "Nicolás Ruotola",
+          "posicion": "Portero"
+        },
+        {
+          "id": "76592",
+          "nombreCompleto": "Sebastián Sosa",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1013852",
+          "nombreCompleto": "David Morosini",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "856529",
+          "nombreCompleto": "Patricio Pernicone",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1511509",
+          "nombreCompleto": "Franco Risso",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "54935",
+          "nombreCompleto": "Martín Cáceres",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "411202",
+          "nombreCompleto": "Renzo Rabino",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "860952",
+          "nombreCompleto": "Kevin Rolón",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "77153",
+          "nombreCompleto": "Emmanuel Más",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1023186",
+          "nombreCompleto": "Agustín Pérez",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "365941",
+          "nombreCompleto": "Federico Barrandeguy",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1390125",
+          "nombreCompleto": "Ignacio Mujica",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1512618",
+          "nombreCompleto": "Mauricio Rodríguez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1030317",
+          "nombreCompleto": "Rodrigo Chagas",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1285239",
+          "nombreCompleto": "Leonel Roldán",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "324946",
+          "nombreCompleto": "Emanuel Cecchini",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1041546",
+          "nombreCompleto": "Ramiro Peralta",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "672104",
+          "nombreCompleto": "Facundo Pérez",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1511679",
+          "nombreCompleto": "Gonzalo Gómez",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "264116",
+          "nombreCompleto": "Gastón Pereiro",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1377261",
+          "nombreCompleto": "Mirko Díaz",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "868491",
+          "nombreCompleto": "Alejo Cruz",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1228248",
+          "nombreCompleto": "Bruno Arady",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "389538",
+          "nombreCompleto": "Martín Boselli",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "989203",
+          "nombreCompleto": "Agustín Alaniz",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1196340",
+          "nombreCompleto": "Pablo Lago",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "692612",
+          "nombreCompleto": "Agustín Rodríguez",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1073078",
+          "nombreCompleto": "Fernando Mimbacas",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1115612",
+          "nombreCompleto": "Bruno Larregui",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "18074",
+      "fuente": "https://www.transfermarkt.es/ca-boston-river/kader/verein/18074/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "982184",
+          "nombreCompleto": "Bruno Antúnez",
+          "posicion": "Portero"
+        },
+        {
+          "id": "503219",
+          "nombreCompleto": "Juan González",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1323284",
+          "nombreCompleto": "Mateo Rivero",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1339495",
+          "nombreCompleto": "Ignacio Fernandez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "647295",
+          "nombreCompleto": "Marco Mancebo",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1411553",
+          "nombreCompleto": "Agustín Aguirre",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "341100",
+          "nombreCompleto": "Martín González",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "815382",
+          "nombreCompleto": "Fredy Martínez",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "980123",
+          "nombreCompleto": "Jairo O'Neil",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "898333",
+          "nombreCompleto": "Facundo Saravia",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1436259",
+          "nombreCompleto": "Lautaro Vázquez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "425559",
+          "nombreCompleto": "Juan Acosta",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1445320",
+          "nombreCompleto": "Kevin Rodríguez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "750753",
+          "nombreCompleto": "Rodrigo Saravia",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1198391",
+          "nombreCompleto": "Marco Oroná",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "902024",
+          "nombreCompleto": "Agustín Amado",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "123742",
+          "nombreCompleto": "Gastón Ramírez",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1123230",
+          "nombreCompleto": "Facundo Muñoa",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "646078",
+          "nombreCompleto": "Yair González",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "745673",
+          "nombreCompleto": "Franco Pérez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1298533",
+          "nombreCompleto": "Facundo Valdez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "294894",
+          "nombreCompleto": "Leo Suárez",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "463444",
+          "nombreCompleto": "Leandro Suhr",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1568703",
+          "nombreCompleto": "Facundo Aristegui",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "627296",
+          "nombreCompleto": "Francisco Bonfiglio",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "216375",
+          "nombreCompleto": "Felipe Avenatti",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "815381",
+          "nombreCompleto": "Nicolás Siri",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "354740",
+          "nombreCompleto": "Facundo Rodríguez",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "10663",
+      "fuente": "https://www.transfermarkt.es/liverpool-fc-montevideo/kader/verein/10663/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "852961",
+          "nombreCompleto": "Mathías Bernatene",
+          "posicion": "Portero"
+        },
+        {
+          "id": "91755",
+          "nombreCompleto": "Martín Campaña",
+          "posicion": "Portero"
+        },
+        {
+          "id": "619234",
+          "nombreCompleto": "Enzo Castillo",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1118699",
+          "nombreCompleto": "Santiago Strasorier",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "863398",
+          "nombreCompleto": "Santiago Laquidaín",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "855489",
+          "nombreCompleto": "Diego Romero",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "573203",
+          "nombreCompleto": "Agustín Cayetano",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "584427",
+          "nombreCompleto": "Kevin Lewis",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "531834",
+          "nombreCompleto": "Facundo Perdomo",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "898036",
+          "nombreCompleto": "Rafael Haller",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "537792",
+          "nombreCompleto": "Jean Rosso",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "972470",
+          "nombreCompleto": "Santiago Milano",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "744282",
+          "nombreCompleto": "Nicolás Garayalde",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1065221",
+          "nombreCompleto": "Ezequiel Olivera",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "856252",
+          "nombreCompleto": "Matías Mir",
+          "posicion": "Interior derecho"
+        },
+        {
+          "id": "1072712",
+          "nombreCompleto": "Lucas Acosta",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1432158",
+          "nombreCompleto": "Thiago Brizuela",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1371112",
+          "nombreCompleto": "Gonzalo de Mello",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "411433",
+          "nombreCompleto": "Federico Martínez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1133078",
+          "nombreCompleto": "Ramiro Degregorio",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "177562",
+          "nombreCompleto": "Diego Zabala",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1103696",
+          "nombreCompleto": "Renzo Machado",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "259911",
+          "nombreCompleto": "Facundo Barceló",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "197333",
+          "nombreCompleto": "Rubén Bentancourt",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "42149",
+      "fuente": "https://www.transfermarkt.es/albion-fc/kader/verein/42149/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "1066022",
+          "nombreCompleto": "Sebastián Jaume",
+          "posicion": "Portero"
+        },
+        {
+          "id": "733323",
+          "nombreCompleto": "Santiago Silva",
+          "posicion": "Portero"
+        },
+        {
+          "id": "76707",
+          "nombreCompleto": "Danilo Lerda",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1509867",
+          "nombreCompleto": "Francisco Couture",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "296445",
+          "nombreCompleto": "Matías De los Santos",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1236727",
+          "nombreCompleto": "Brandon Llana",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "142970",
+          "nombreCompleto": "Pablo Lacoste",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1414585",
+          "nombreCompleto": "Mauro Marichal",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "264740",
+          "nombreCompleto": "José Álvarez",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "457534",
+          "nombreCompleto": "Federico Puente",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "521235",
+          "nombreCompleto": "Andrés Romero",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "958329",
+          "nombreCompleto": "Agustín Pereira",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "631887",
+          "nombreCompleto": "Tomás Moschión",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1379676",
+          "nombreCompleto": "Pablo Alcoba",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "538091",
+          "nombreCompleto": "Francisco Ginella",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1028020",
+          "nombreCompleto": "Santiago Costa",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1198373",
+          "nombreCompleto": "Román Gutiérrez",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "997819",
+          "nombreCompleto": "Felipe Serrés",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "437998",
+          "nombreCompleto": "Ignacio Neira",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "397896",
+          "nombreCompleto": "Hernán Toledo",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1011556",
+          "nombreCompleto": "Agustín Vera",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "671950",
+          "nombreCompleto": "Lucas Rodríguez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1422395",
+          "nombreCompleto": "Mateo Alcoba",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "565008",
+          "nombreCompleto": "Carlos Airala",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "891569",
+          "nombreCompleto": "Baltasar Barcia",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "531608",
+          "nombreCompleto": "Briam Acosta",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1236684",
+          "nombreCompleto": "Iker Zufiaurre",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "683807",
+          "nombreCompleto": "Álvaro López",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "132693",
+          "nombreCompleto": "Tobías Figueroa",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "14758",
+      "fuente": "https://www.transfermarkt.es/racing-club-de-montevideo/kader/verein/14758/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "831407",
+          "nombreCompleto": "Federico Varese",
+          "posicion": "Portero"
+        },
+        {
+          "id": "837685",
+          "nombreCompleto": "Facundo Machado",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1290507",
+          "nombreCompleto": "Felipe Álvarez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1102014",
+          "nombreCompleto": "Ramiro Brazionis",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "492317",
+          "nombreCompleto": "Facundo Parada",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1550865",
+          "nombreCompleto": "Elías Bentancor",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1344926",
+          "nombreCompleto": "Diego Cheuquepal",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "197139",
+          "nombreCompleto": "Martín Ferreira",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "311739",
+          "nombreCompleto": "Guillermo Cotugno",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1232131",
+          "nombreCompleto": "Facundo González",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1378285",
+          "nombreCompleto": "Matías Unyicio",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1371375",
+          "nombreCompleto": "Juan Pablo Bosca",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1291056",
+          "nombreCompleto": "Agustín De la Cuesta",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1387965",
+          "nombreCompleto": "Lucca Loprete",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "147139",
+          "nombreCompleto": "José Varela",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1343080",
+          "nombreCompleto": "Yuri Oyarzo",
+          "posicion": "Interior izquierdo"
+        },
+        {
+          "id": "741548",
+          "nombreCompleto": "Álex Vázquez",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "981057",
+          "nombreCompleto": "Franco Suárez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "802260",
+          "nombreCompleto": "Esteban Da Silva",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1567019",
+          "nombreCompleto": "Rodrigo Gadea",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1035544",
+          "nombreCompleto": "Sebastián da Silva",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1374858",
+          "nombreCompleto": "Tomás Habib",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1390952",
+          "nombreCompleto": "Iván Manzur",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "340103",
+          "nombreCompleto": "Nicolás Sosa",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "10960",
+      "fuente": "https://www.transfermarkt.es/central-espanol-fc/kader/verein/10960/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "480158",
+          "nombreCompleto": "Federico Pintado",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1106324",
+          "nombreCompleto": "Emiliano Márquez",
+          "posicion": "Portero"
+        },
+        {
+          "id": "102227",
+          "nombreCompleto": "Rodolfo Alves de Melo",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1533241",
+          "nombreCompleto": "Samuel Rodríguez",
+          "posicion": "Portero"
+        },
+        {
+          "id": "959241",
+          "nombreCompleto": "Ignacio Rodríguez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "976020",
+          "nombreCompleto": "Matías González",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "928644",
+          "nombreCompleto": "Andrés Madruga",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "900458",
+          "nombreCompleto": "Logan Ponce",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "972498",
+          "nombreCompleto": "Mateo Urrutia",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "202872",
+          "nombreCompleto": "Alejandro Villoldo",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1382927",
+          "nombreCompleto": "Ernesto Aramburú",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1147669",
+          "nombreCompleto": "Juan Herrera",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1202092",
+          "nombreCompleto": "Andrés Caro",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "599828",
+          "nombreCompleto": "César Nunes",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1194695",
+          "nombreCompleto": "Juan Ignacio Dupont",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1239996",
+          "nombreCompleto": "Lautaro Gandulfo",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "657754",
+          "nombreCompleto": "Luciano Fernández",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1054449",
+          "nombreCompleto": "Julián Pou",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1066535",
+          "nombreCompleto": "Guillermo Gandolfo",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "435983",
+          "nombreCompleto": "Marcos Montiel",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "803673",
+          "nombreCompleto": "Isaac Méndez",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1219753",
+          "nombreCompleto": "Davi Melo",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "531609",
+          "nombreCompleto": "Franco Muñoz",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1072711",
+          "nombreCompleto": "Lucas Pino",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1382932",
+          "nombreCompleto": "Facundo Yocco",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "842772",
+          "nombreCompleto": "Máximo Alonso",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "898379",
+          "nombreCompleto": "Exequiel Mereles",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1288566",
+          "nombreCompleto": "Mariano Aguilera",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1112896",
+          "nombreCompleto": "Fernando Camarda",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1000731",
+          "nombreCompleto": "Facundo Sosa",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1065167",
+          "nombreCompleto": "Santiago Sequeira",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "900478",
+          "nombreCompleto": "Jonathan Dellarossa",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1290995",
+          "nombreCompleto": "Francisco Montoro",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1383537",
+          "nombreCompleto": "Facundo Borges",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1054450",
+          "nombreCompleto": "Ignacio Gonella",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1150844",
+          "nombreCompleto": "Matías Kusmanis",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "76622",
+          "nombreCompleto": "Raúl Tarragona",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "18075",
+      "fuente": "https://www.transfermarkt.es/club-deportivo-maldonado/kader/verein/18075/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "876456",
+          "nombreCompleto": "Diego Segovia",
+          "posicion": "Portero"
+        },
+        {
+          "id": "438014",
+          "nombreCompleto": "Adriano Freitas",
+          "posicion": "Portero"
+        },
+        {
+          "id": "709550",
+          "nombreCompleto": "Nicolás Forastiero",
+          "posicion": "Portero"
+        },
+        {
+          "id": "189425",
+          "nombreCompleto": "Guillermo de Amores",
+          "posicion": "Portero"
+        },
+        {
+          "id": "959242",
+          "nombreCompleto": "Nicolás Fuica",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "580142",
+          "nombreCompleto": "Joaquín Fernández",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "227776",
+          "nombreCompleto": "Hernán Petryk",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "125440",
+          "nombreCompleto": "Hernán Menosse",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "184148",
+          "nombreCompleto": "Facundo Tealde",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1246365",
+          "nombreCompleto": "Sebastián Tormo",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "288480",
+          "nombreCompleto": "Juan Ramos",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1029486",
+          "nombreCompleto": "Juan Martín Ginzo",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "130197",
+          "nombreCompleto": "Camilo Mayada",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1272094",
+          "nombreCompleto": "Franco Marino",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "657747",
+          "nombreCompleto": "Santiago Cartagena",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "931404",
+          "nombreCompleto": "Maximiliano González",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "747238",
+          "nombreCompleto": "Sebastián González",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "799948",
+          "nombreCompleto": "Lucas Núñez",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "826453",
+          "nombreCompleto": "Adrian Vila",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1001697",
+          "nombreCompleto": "Bruno Centeno",
+          "posicion": "Interior derecho"
+        },
+        {
+          "id": "859010",
+          "nombreCompleto": "Gonzalo Sosa",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "855643",
+          "nombreCompleto": "Santiago Ramírez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1022780",
+          "nombreCompleto": "Guillermo López",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1115964",
+          "nombreCompleto": "Gonzalo Larrazábal",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1154226",
+          "nombreCompleto": "Lautaro Ibáñez",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "227604",
+          "nombreCompleto": "Christian Tabó",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "188734",
+          "nombreCompleto": "Renato César",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "339979",
+          "nombreCompleto": "Maximiliano Noble",
+          "posicion": "Mediapunta"
+        },
+        {
+          "id": "1305369",
+          "nombreCompleto": "Cayetano Bolzán",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "424290",
+          "nombreCompleto": "Emiliano Mozzone",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "17595",
+      "fuente": "https://www.transfermarkt.es/ca-progreso/kader/verein/17595/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "612873",
+          "nombreCompleto": "Renzo Bacchia",
+          "posicion": "Portero"
+        },
+        {
+          "id": "240903",
+          "nombreCompleto": "Andrés Mehring",
+          "posicion": "Portero"
+        },
+        {
+          "id": "468976",
+          "nombreCompleto": "Agustín Requena",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1154228",
+          "nombreCompleto": "Lautaro Fernández",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1280137",
+          "nombreCompleto": "Hernán Carroso",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1038826",
+          "nombreCompleto": "Mauro Martín",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "365942",
+          "nombreCompleto": "Federico Andueza",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "373248",
+          "nombreCompleto": "Sebastián Cardozo",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "528367",
+          "nombreCompleto": "Marco Saravia",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "189452",
+          "nombreCompleto": "Gastón Silva",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1160147",
+          "nombreCompleto": "Federico García",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "421195",
+          "nombreCompleto": "Ayrton Cougo",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "836662",
+          "nombreCompleto": "Emiliano Álvarez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "574752",
+          "nombreCompleto": "Gianfranco Trasante",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1115959",
+          "nombreCompleto": "Agustín Pinheiro",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "357126",
+          "nombreCompleto": "Ramiro Cristóbal",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1149379",
+          "nombreCompleto": "Lorenzo Couture",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1006625",
+          "nombreCompleto": "Agustin Paz",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1103670",
+          "nombreCompleto": "Gonzalo Silva",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1518437",
+          "nombreCompleto": "Agustín Codagnone",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1228250",
+          "nombreCompleto": "Nahuel López",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "583822",
+          "nombreCompleto": "Agustín Ocampo",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1051537",
+          "nombreCompleto": "Facundo de León",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "678966",
+          "nombreCompleto": "Nahuel Acosta",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1237430",
+          "nombreCompleto": "Santino Bruschi",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1512182",
+          "nombreCompleto": "Joaquín Solleiro",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "657749",
+          "nombreCompleto": "Maximiliano Juambeltz",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "984710",
+          "nombreCompleto": "Lucas Viana",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1147668",
+          "nombreCompleto": "Matteo Copelotti",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1140724",
+          "nombreCompleto": "Gary Silva",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "403747",
+          "nombreCompleto": "Jonathan Dos Santos",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "2403",
+      "fuente": "https://www.transfermarkt.es/montevideo-wanderers/kader/verein/2403/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "733165",
+          "nombreCompleto": "Agustín Buffa",
+          "posicion": "Portero"
+        },
+        {
+          "id": "837684",
+          "nombreCompleto": "José Río",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1243378",
+          "nombreCompleto": "Santiago Benítez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "665978",
+          "nombreCompleto": "Nicolás Cabral",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "197231",
+          "nombreCompleto": "Fabricio Formiliano",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1332383",
+          "nombreCompleto": "Mateo Acosta",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "196691",
+          "nombreCompleto": "Leandro Zazpe",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "991767",
+          "nombreCompleto": "Darlin Mencía",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1276456",
+          "nombreCompleto": "Guillermo Borthagaray",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "653191",
+          "nombreCompleto": "Nahuel Furtado",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "588165",
+          "nombreCompleto": "Alan García",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "196520",
+          "nombreCompleto": "Gonzalo Freitas",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1229012",
+          "nombreCompleto": "Sergi Oriol",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "421332",
+          "nombreCompleto": "José Alberti",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "277349",
+          "nombreCompleto": "Nicolás Queiróz",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1093254",
+          "nombreCompleto": "Jonás Luna",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "74621",
+          "nombreCompleto": "Jonathan Urretaviscaya",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "382085",
+          "nombreCompleto": "Rodrigo Rivero",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1022058",
+          "nombreCompleto": "Luciano Cosentino",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "486211",
+          "nombreCompleto": "Facundo Labandeira",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "970867",
+          "nombreCompleto": "Renzo Sánchez",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1240648",
+          "nombreCompleto": "Santiago Guzmán",
+          "posicion": "Mediapunta"
+        },
+        {
+          "id": "319429",
+          "nombreCompleto": "Joaquín Zeballos",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "599568",
+          "nombreCompleto": "Santiago Ormeño",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "20189",
+      "fuente": "https://www.transfermarkt.es/cerro-largo-fc/kader/verein/20189/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "660856",
+          "nombreCompleto": "Pedro González",
+          "posicion": "Portero"
+        },
+        {
+          "id": "657740",
+          "nombreCompleto": "Lukas González",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1000249",
+          "nombreCompleto": "Alexis Piegas",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "511321",
+          "nombreCompleto": "Lucas Correa",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "893585",
+          "nombreCompleto": "Martín Gianoli",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1247310",
+          "nombreCompleto": "Nicolás Ramos",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "657752",
+          "nombreCompleto": "Axel Prado",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "369082",
+          "nombreCompleto": "Robert Ergas",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "881643",
+          "nombreCompleto": "Santiago Franca",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1292834",
+          "nombreCompleto": "Mateo Monserrat",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1567497",
+          "nombreCompleto": "Facundo Acosta",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1108315",
+          "nombreCompleto": "Alexander Hernández",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1512632",
+          "nombreCompleto": "Facundo Alvez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1371748",
+          "nombreCompleto": "Emiliano Jourdan",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "146289",
+          "nombreCompleto": "Nicolás Bertocchi",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "961350",
+          "nombreCompleto": "Santiago Marcel",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "744605",
+          "nombreCompleto": "Mario García",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "209708",
+          "nombreCompleto": "Sebastián Assís",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1198385",
+          "nombreCompleto": "Ezequiel Cabral",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "687832",
+          "nombreCompleto": "Axel Pandiani",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "338889",
+          "nombreCompleto": "Brian Lozano",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "907578",
+          "nombreCompleto": "Andrés Córdoba",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1234283",
+          "nombreCompleto": "Bruno Hernández",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1012955",
+          "nombreCompleto": "Lucas Píriz",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1171688",
+          "nombreCompleto": "Alfonso de Luca",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1013913",
+          "nombreCompleto": "Alexis Segovia",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "492316",
+          "nombreCompleto": "Gustavo Viera",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1004683",
+          "nombreCompleto": "Elías de León",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1512609",
+          "nombreCompleto": "Diego Daguerre",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "997831",
+          "nombreCompleto": "Ihojan Pérez",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "353806",
+          "nombreCompleto": "Borys Barone",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "1306",
+      "fuente": "https://www.transfermarkt.es/danubio-fc/kader/verein/1306/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "72578",
+          "nombreCompleto": "Mauro Goicoechea",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1236474",
+          "nombreCompleto": "Kevin Martínez",
+          "posicion": "Portero"
+        },
+        {
+          "id": "189458",
+          "nombreCompleto": "Emiliano Velázquez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "440835",
+          "nombreCompleto": "Mauro Brasil",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1247963",
+          "nombreCompleto": "Mateo Rinaldi",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "856606",
+          "nombreCompleto": "Martín Jourdan",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1380229",
+          "nombreCompleto": "Felipe Cabrera",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1380214",
+          "nombreCompleto": "Gonzalo Rodríguez",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "832090",
+          "nombreCompleto": "Tomás Cavanagh",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "199856",
+          "nombreCompleto": "Leandro Sosa",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "1379674",
+          "nombreCompleto": "Facundo Balatti",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "267433",
+          "nombreCompleto": "Iván Rossi",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "131114",
+          "nombreCompleto": "Sebastián Rodríguez",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "893963",
+          "nombreCompleto": "Juan Millán",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1414579",
+          "nombreCompleto": "Emiliano Figueroa",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "606753",
+          "nombreCompleto": "Joaquín Trasante",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1333457",
+          "nombreCompleto": "Alexander Velázquez",
+          "posicion": "Interior izquierdo"
+        },
+        {
+          "id": "997829",
+          "nombreCompleto": "Mateo Peralta",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "999081",
+          "nombreCompleto": "Axel Montaña",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "672132",
+          "nombreCompleto": "Cristhian Tizón",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "650227",
+          "nombreCompleto": "Maicol Ferreira",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1305127",
+          "nombreCompleto": "Enzo Cabrera",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "1017779",
+          "nombreCompleto": "Enrique Femia",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "64545",
+          "nombreCompleto": "Sebastián Fernández",
+          "posicion": "Mediapunta"
+        },
+        {
+          "id": "878536",
+          "nombreCompleto": "Bautista Tomatis",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "548685",
+          "nombreCompleto": "John Kleber",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "727821",
+          "nombreCompleto": "Ivo Costantino",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "263052",
+          "nombreCompleto": "Hugo Silveira",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1236473",
+          "nombreCompleto": "Diego Píriz",
+          "posicion": "Delantero centro"
+        }
+      ]
+    },
+    {
+      "clubIdTransfermarkt": "14806",
+      "fuente": "https://www.transfermarkt.es/ca-cerro/kader/verein/14806/saison_id/2025",
+      "jugadores": [
+        {
+          "id": "261182",
+          "nombreCompleto": "Darío Denis",
+          "posicion": "Portero"
+        },
+        {
+          "id": "102439",
+          "nombreCompleto": "Yonatan Irrazábal",
+          "posicion": "Portero"
+        },
+        {
+          "id": "1304356",
+          "nombreCompleto": "Diego Capdevila",
+          "posicion": "Portero"
+        },
+        {
+          "id": "552629",
+          "nombreCompleto": "Nahuel Arena",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "832977",
+          "nombreCompleto": "Juan Cruz Guasone",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1196897",
+          "nombreCompleto": "Mauro Villar",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1147667",
+          "nombreCompleto": "Ariel Lima",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "840884",
+          "nombreCompleto": "Facundo Butti",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1434252",
+          "nombreCompleto": "Martín Farías",
+          "posicion": "Defensa central"
+        },
+        {
+          "id": "1054448",
+          "nombreCompleto": "Francisco Bregante",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "189447",
+          "nombreCompleto": "Gianni Rodríguez",
+          "posicion": "Lateral izquierdo"
+        },
+        {
+          "id": "76746",
+          "nombreCompleto": "Damián Suárez",
+          "posicion": "Lateral derecho"
+        },
+        {
+          "id": "1236916",
+          "nombreCompleto": "Alejo Macelli",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "1323285",
+          "nombreCompleto": "Jairo Amaro",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "741102",
+          "nombreCompleto": "Emiliano Sosa",
+          "posicion": "Pivote"
+        },
+        {
+          "id": "202214",
+          "nombreCompleto": "Agustín Miranda",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1332993",
+          "nombreCompleto": "Rodrigo Mederos",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "1500643",
+          "nombreCompleto": "Brian Quinteros",
+          "posicion": "Mediocentro"
+        },
+        {
+          "id": "189443",
+          "nombreCompleto": "Leonardo Pais",
+          "posicion": "Interior derecho"
+        },
+        {
+          "id": "1149381",
+          "nombreCompleto": "Pablo Nongoy",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "981479",
+          "nombreCompleto": "Ezequiel Forclaz",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "76886",
+          "nombreCompleto": "Brahian Alemán",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1198160",
+          "nombreCompleto": "Pablo Da Silveira",
+          "posicion": "Mediocentro ofensivo"
+        },
+        {
+          "id": "1237379",
+          "nombreCompleto": "Nahuel Sena",
+          "posicion": "Extremo izquierdo"
+        },
+        {
+          "id": "1158751",
+          "nombreCompleto": "Alejandro Severo",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "692611",
+          "nombreCompleto": "Cristian Barros",
+          "posicion": "Extremo derecho"
+        },
+        {
+          "id": "982198",
+          "nombreCompleto": "Emiliano Rodríguez",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1108738",
+          "nombreCompleto": "Augusto Cambón",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1015627",
+          "nombreCompleto": "Bruno Morales",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1500644",
+          "nombreCompleto": "Tiago Rijo",
+          "posicion": "Delantero centro"
+        },
+        {
+          "id": "1513306",
+          "nombreCompleto": "Jeison Cubas",
+          "posicion": "Delantero"
+        }
+      ]
+    }
+  ]
+}

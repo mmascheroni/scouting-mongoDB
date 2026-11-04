@@ -5,6 +5,7 @@ import { ClubesPage } from './pages/ClubesPage';
 import { PlantillaClubPage } from './pages/PlantillaClubPage';
 import { JugadorDetallePage } from './pages/JugadorDetallePage';
 import { BusquedaScoutingPage } from './pages/BusquedaScoutingPage';
+import { CompararJugadoresPage } from './pages/CompararJugadoresPage';
 
 export default function App() {
     return (
@@ -26,6 +27,7 @@ export default function App() {
                         element={<JugadorDetallePage />}
                     />
                     <Route path='/buscar' element={<BusquedaScoutingPage />} />
+                    <Route path='/comparar' element={<CompararJugadoresPage />} />
                 </Routes>
             </div>
         </BrowserRouter>

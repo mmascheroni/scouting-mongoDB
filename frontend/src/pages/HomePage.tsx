@@ -30,6 +30,13 @@ export const HomePage = () => {
                     ruta='/buscar'
                     textoBoton='Ir a Búsqueda'
                 />
+                <HomeCard
+                    icono='⚖️'
+                    titulo='Comparar jugadores'
+                    descripcion='Compara dos jugadores de la misma posición y sus estadísticas de una misma temporada y competición.'
+                    ruta='/comparar'
+                    textoBoton='Ir a Comparación'
+                />
             </section>
         </div>
     );
