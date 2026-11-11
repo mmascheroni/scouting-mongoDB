@@ -1,4 +1,5 @@
 import type { IEstadisticaTemporada } from '../types/types';
+import { formatearPorPartido } from '../utils/estadisticas';
 
 interface Props {
     temporadas: IEstadisticaTemporada[];
@@ -7,7 +8,6 @@ interface Props {
 
 export const EstadisticasTemporadaCard = ({
     temporadas,
-    posicionPrincipal,
 }: Props) => {
     if (!temporadas || temporadas.length === 0) {
         return (
@@ -184,8 +184,8 @@ export const EstadisticasTemporadaCard = ({
                                     </h4>
                                     <div style={styles.dataGroup}>
                                         <p>
-                                            <strong>Duelos Ganados:</strong>{' '}
-                                            {temp.defensivas.duelosGanados}
+                                            <strong>Duelos ganados xP (por partido):</strong>{' '}
+                                            {formatearPorPartido(temp.defensivas.duelosGanados, temp.generales?.partidos)}
                                         </p>
                                         <p>
                                             <strong>Intercepciones:</strong>{' '}
@@ -230,9 +230,9 @@ export const EstadisticasTemporadaCard = ({
                                         </p>
                                         <p>
                                             <strong>
-                                                Duelos Aéreos Ganados:
+                                                Duelos aéreos ganados xP (por partido):
                                             </strong>{' '}
-                                            {temp.defensor.duelosAereosGanados}
+                                            {formatearPorPartido(temp.defensor.duelosAereosGanados, temp.generales?.partidos)}
                                         </p>
                                     </div>
                                 </div>
@@ -267,11 +267,10 @@ export const EstadisticasTemporadaCard = ({
                                         </p>
                                         <p>
                                             <strong>
-                                                Duelos Ofensivos Ganados:
+                                                Duelos ofensivos ganados xP (por partido):
                                             </strong>{' '}
                                             {
-                                                temp.mediocampista
-                                                    .duelosOfensivosGanados
+                                                formatearPorPartido(temp.mediocampista.duelosOfensivosGanados, temp.generales?.partidos)
                                             }
                                         </p>
                                         <p>
@@ -312,11 +311,10 @@ export const EstadisticasTemporadaCard = ({
                                     <div style={styles.dataGroup}>
                                         <p>
                                             <strong>
-                                                Duelos Ofensivos Ganados:
+                                                Duelos ofensivos ganados xP (por partido):
                                             </strong>{' '}
                                             {
-                                                temp.delantero
-                                                    .duelosOfensivosGanados
+                                                formatearPorPartido(temp.delantero.duelosOfensivosGanados, temp.generales?.partidos)
                                             }
                                         </p>
                                         <p>

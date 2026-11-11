@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getJugadores } from '../../services/jugadorService';
+import { formatearPieHabil } from '../../utils/jugadores';
 import type { IJugadorCompleto, IClub } from '../../types/types';
 
 export const ListadoGeneralTabla = () => {
@@ -141,7 +142,7 @@ export const ListadoGeneralTabla = () => {
                                                 </span>
                                             </td>
                                             <td style={styles.td}>
-                                                {j.pieHabil || 'N/D'}
+                                                {formatearPieHabil(j.pieHabil)}
                                             </td>
                                             <td style={styles.td}>
                                                 {clubNombre}

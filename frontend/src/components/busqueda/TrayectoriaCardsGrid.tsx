@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { EscudoClub } from '../EscudoClub';
 import type { ITrayectoriaJugador } from '../../types/types';
 
 export const TrayectoriaCardsGrid = () => {
@@ -11,6 +12,7 @@ export const TrayectoriaCardsGrid = () => {
     const [error, setError] = useState<string | null>(null);
     const [textoBusqueda, setTextoBusqueda] = useState<string>('');
     const [posicionFiltro, setPosicionFiltro] = useState<string>('TODAS');
+    const [clubFiltro, setClubFiltro] = useState<string>('TODOS');
 
     // 2. Consumo directo de la API REST al montarse el componente
     useEffect(() => {
@@ -38,7 +40,11 @@ export const TrayectoriaCardsGrid = () => {
         };
     }, []);
 
-    // 3. Filtrado local dinámico por texto y posición
+    const clubes = Array.from(new Map(trayectorias.flatMap(item =>
+        item.clubActual ? [[item.clubActual._id, item.clubActual] as const] : [],
+    )).values()).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+
+    // 3. Los filtros de nombre, club actual y posición se combinan.
     const filtradas = trayectorias.filter((item) => {
         const nombreCompleto =
             `${item.nombre || ''} ${item.apellido || ''}`.toLowerCase();
@@ -48,7 +54,9 @@ export const TrayectoriaCardsGrid = () => {
         const coincidePosicion =
             posicionFiltro === 'TODAS' ||
             item.posicionPrincipal === posicionFiltro;
-        return coincideTexto && coincidePosicion;
+        const coincideClub = clubFiltro === 'TODOS' ||
+            (clubFiltro === 'SIN_CLUB' ? !item.clubActual : item.clubActual?._id === clubFiltro);
+        return coincideTexto && coincidePosicion && coincideClub;
     });
 
     if (cargando) {
@@ -84,8 +92,9 @@ export const TrayectoriaCardsGrid = () => {
             {/* BARRA DE FILTROS AUTÓNOMA */}
             <div style={styles.filterRow}>
                 <div style={{ flex: '2 1 250px' }}>
-                    <label style={styles.label}>Buscar Nombre/Apellido:</label>
+                    <label htmlFor='trayectoria-nombre' style={styles.label}>Buscar Nombre/Apellido:</label>
                     <input
+                        id='trayectoria-nombre'
                         type='text'
                         placeholder='Ej. Luis Mejía...'
                         value={textoBusqueda}
@@ -95,8 +104,23 @@ export const TrayectoriaCardsGrid = () => {
                 </div>
 
                 <div style={{ flex: '1 1 200px' }}>
-                    <label style={styles.label}>Posición Principal:</label>
+                    <label htmlFor='trayectoria-club' style={styles.label}>Club actual:</label>
                     <select
+                        id='trayectoria-club'
+                        value={clubFiltro}
+                        onChange={e => setClubFiltro(e.target.value)}
+                        style={styles.selectInput}
+                    >
+                        <option value='TODOS'>Todos los clubes</option>
+                        {clubes.map(club => <option key={club._id} value={club._id}>{club.nombre}</option>)}
+                        <option value='SIN_CLUB'>Sin club asignado</option>
+                    </select>
+                </div>
+
+                <div style={{ flex: '1 1 200px' }}>
+                    <label htmlFor='trayectoria-posicion' style={styles.label}>Posición Principal:</label>
+                    <select
+                        id='trayectoria-posicion'
                         value={posicionFiltro}
                         onChange={(e) => setPosicionFiltro(e.target.value)}
                         style={styles.selectInput}
@@ -160,8 +184,9 @@ export const TrayectoriaCardsGrid = () => {
 
                                 <p style={styles.clubActualLabel}>
                                     <strong>Club Actual:</strong>{' '}
+                                    <EscudoClub nombre={clubActualNombre} />
                                     {item.clubActual
-                                        ? `⚽ ${clubActualNombre}${clubActualCiudad}`
+                                        ? `${clubActualNombre}${clubActualCiudad}`
                                         : 'Sin club asignado'}
                                 </p>
 
@@ -183,6 +208,7 @@ export const TrayectoriaCardsGrid = () => {
                                                     <span style={styles.dot} />
                                                     <div>
                                                         <strong>
+                                                            <EscudoClub nombre={club.nombreClub || ''} />
                                                             {club.nombreClub ||
                                                                 'Club Registrado'}
                                                         </strong>

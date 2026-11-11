@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getPlantillaClub } from '../services/clubService';
+import { formatearPieHabil } from '../utils/jugadores';
 import type { IClub, IJugadorResumen } from '../types/types';
 
 export const PlantillaClubPage = () => {
@@ -83,7 +84,7 @@ export const PlantillaClubPage = () => {
                                 {jugador.posiciones.join(', ')}
                             </td>
                             <td style={styles.td}>{jugador.altura} cm</td>
-                            <td style={styles.td}>{jugador.pieHabil}</td>
+                            <td style={styles.td}>{formatearPieHabil(jugador.pieHabil)}</td>
                             <td style={styles.td}>
                                 <button
                                     style={styles.actionButton}
