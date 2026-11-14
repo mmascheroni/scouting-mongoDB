@@ -7,7 +7,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const Club_1 = require("./models/Club");
 const Jugador_1 = require("./models/Jugador");
-const clubesPrimera_1 = require("./data/clubesPrimera");
+const plantelesDemo_1 = require("./services/plantelesDemo");
 dotenv_1.default.config();
 const seedDB = async () => {
     try {
@@ -54,7 +54,83 @@ const seedDB = async () => {
             estadio: 'Parque Alfredo Víctor Viera',
             division: 'Primera División'
         });
-        await (0, clubesPrimera_1.completarClubesPrimera)();
+        await Club_1.ClubModel.create({
+            nombre: 'Montevideo City Torque',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Estadio Charrúa',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Club Deportivo Maldonado',
+            pais: 'Uruguay',
+            ciudad: 'Maldonado',
+            estadio: 'Campus Municipal de Maldonado',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Club Atlético Peñarol',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Campeon del Siglo',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Racing Club de Montevideo',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Parque Osvaldo Roberto',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Club Atlético Progreso',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Abraham Paladino',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Club Atlético Juventud de Las Piedras',
+            pais: 'Uruguay',
+            ciudad: 'Las Piedras',
+            estadio: 'Parque Artigas',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Club Atlético Cerro',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Monumental Luis Tróccoli',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Club Atlético Boston River',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Campeones Olimpicos',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Albion Football Club',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: '',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Cerro Largo Fútbol Club',
+            pais: 'Uruguay',
+            ciudad: 'Melo',
+            estadio: 'Arq. Antonio Ubilla',
+            division: 'Primera División'
+        });
+        await Club_1.ClubModel.create({
+            nombre: 'Central Español Fútbol Club',
+            pais: 'Uruguay',
+            ciudad: 'Montevideo',
+            estadio: 'Parque Palermo',
+            division: 'Primera División'
+        });
         console.log('✅ 16 clubes de Primera División creados exitosamente.');
         // =============================================================
         // 2. JUGADORES CON ESQUEMA FLEXIBLE SEGÚN SU POSICIÓN
@@ -458,6 +534,8 @@ const seedDB = async () => {
                 historial_Lesiones: []
             }
         ]);
+        const agregados = await (0, plantelesDemo_1.cargarPlanteles)();
+        console.log(`✅ Planteles de Transfermarkt cargados: ${agregados} jugadores adicionales con datos de demostración.`);
         console.log('✅ Base de datos rellenada exitosamente respetando el esquema flexible.');
         process.exit(0);
     }
